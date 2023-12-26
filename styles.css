@@ -1,0 +1,30 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Calibri', Helvetica, sans-serif;
+}
+
+div.bingo-container {
+    height: 90vh;
+    padding: 20px 20px;
+}
+
+div.bingo-container div.row{
+    display: flex;
+    width: 100%;
+}
+
+div.bingo-container div.row div{
+    padding: 20px;
+    border: 1px solid black;
+    flex: 1;
+    text-align: center;
+    min-height: 165px;
+    font-size: 50px;
+    max-width: 250px;
+}
+
+div.bingo-container div.row div.active{
+    background: seagreen;
+    color: white;
+}
